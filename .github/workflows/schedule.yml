@@ -1,3 +1,4 @@
+name: Do a thing regularly
 on:
   schedule:
     #- cron: '20 * * * *'
