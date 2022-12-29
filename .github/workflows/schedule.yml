@@ -1,0 +1,11 @@
+on:
+  schedule:
+    #- cron: '20 * * * *'
+    - cron: '* * * * *'
+
+jobs:
+  test_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+      - run: echo "the job is run $DATE"
