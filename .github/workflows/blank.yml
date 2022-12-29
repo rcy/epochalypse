@@ -26,7 +26,5 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: Show env
-        run: env
       - name: Post to twitter
         run: bash ./daysleft.sh
